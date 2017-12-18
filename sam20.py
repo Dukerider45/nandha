@@ -1,4 +1,4 @@
-n=10
+n=int(input())
 for i in range (1,6):
 	m=n*i
 	print n,"*",i,"=",m
