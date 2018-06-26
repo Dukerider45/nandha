@@ -17,13 +17,4 @@ for i in range(n):
         if(j==str(q)):
             r=list.index(j)
             del list[r]
-if(n%2!=0):
-    m=(n/2)
-    print(x[m])
-else:
-    m=n/2
-    c=float(x[m])
-    d=float(x[m-1])
-    e=(c+d)/2
-    int(e)
-    print(e)
+print(' '.join(x))
